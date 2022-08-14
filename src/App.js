@@ -7,11 +7,11 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 
 function App() {
-  const [showAddTask, setShowAddTask] = useState(false);
+  const [showAddTask, setShowAddTask] = useState(false); // this is just setting the props and state
   const [tasks, setTasks] = useState([]);
 
   useEffect(() => {  
-    const getTasks = async () => {
+    const getTasks = async () => { // this is where we will get the show Add Tasks
       const taskFromServer = await fetchTasks()
       setTasks(taskFromServer)
     }
