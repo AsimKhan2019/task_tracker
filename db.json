@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Doctors Appointment",
+      "day": "Feb 5th @ 2:30 pm",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Grocery Shopping",
+      "day": "Feb 6th @ 2:30 pm",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Laundry Service",
+      "day": "Feb 7th @ 2:30 pm",
+      "reminder": false
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
